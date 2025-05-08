@@ -53,3 +53,4 @@ tzlocal==4.2
 xlsx2csv==0.8.1
 xmltodict==0.13.0
 zenpy==2.0.25
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
