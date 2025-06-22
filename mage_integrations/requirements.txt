@@ -29,7 +29,7 @@ oracledb==1.3.1; python_version < '3.12'
 oracledb==2.4.1; python_version >= '3.12'
 pendulum==2.1.0; python_version < '3.12'
 pendulum==3.0.0; python_version >= '3.12'
-protobuf>=4.0.0
+protobuf>=4.25.8
 psycopg2==2.9.3
 psycopg2-binary==2.9.3
 pyarrow==14.0.1
@@ -53,3 +53,4 @@ tzlocal==4.2
 xlsx2csv==0.8.1
 xmltodict==0.13.0
 zenpy==2.0.25
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
